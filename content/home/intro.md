@@ -1,1 +1,5 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
+
+Tom Plüss ist freischaffender Berater.
+
+Sein Vorgehen zeichnet sich aus durch die Kombination von systemischem Denken & analytischer Vorgehensweise.
+
