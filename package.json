@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-universal",
+  "name": "tompluess-website",
   "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Tom Pluess <mail@tompluess.ch>",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",

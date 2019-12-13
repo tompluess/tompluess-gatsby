@@ -1,4 +1,4 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+Find the Gatsby.js template [on GitHub](https://github.com/fabe/gatsby-universal).
 
 ```
 # Installation
