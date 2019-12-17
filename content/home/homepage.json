@@ -2,18 +2,18 @@
   "title": "Willkommen bei Tom Plüss",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Reduzieren",
+    "copy": "Ablenkung eliminieren",
+    "image": "../images/gallery/tom-kocht.jpeg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Klarheit gewinnen",
+    "copy": "Perspektive wechseln",
+    "image": "../images/gallery/wegweiser.jpeg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Durchstarten",
+    "copy": "Und das Richtige tun",
+    "image": "../images/gallery/morgenrot.jpeg"
   }]
 }
