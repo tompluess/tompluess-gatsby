@@ -69,6 +69,12 @@ export default createGlobalStyle`
 
   a {
     color: ${accent};
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: ${accent};
+    text-decoration: underline;
   }
 
   pre {
