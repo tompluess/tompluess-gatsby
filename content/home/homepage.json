@@ -15,5 +15,18 @@
     "title": "Durchstarten",
     "copy": "Und das Richtige tun",
     "image": "../images/gallery/morgenrot.jpeg"
+  }],
+  "titleSecond": "Tätigkeitsgebiete",
+  "gallerySecond": [{
+    "title": "Simplificator",
+    "copy": "Software Engineer, Domain Leader",
+    "image": "../images/gallery/simplificator-buttons.jpeg",
+    "href": "https://tompluess.ch"
+  },
+  {
+    "title": "Nomadenkreis",
+    "copy": "Leiter",
+    "image": "../images/gallery/feuer-3toepfe-abend.jpeg",
+    "href": "https://www.nomadenkreis.ch"
   }]
 }

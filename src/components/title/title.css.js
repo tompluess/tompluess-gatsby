@@ -19,7 +19,7 @@ export const Text = styled.span`
         return '2rem';
     }
   }};
-  line-height: 1.2;
+  line-height: 1.8;
 
   ${MEDIA.TABLET`
     font-size: ${({ size }) => () => {
