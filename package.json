@@ -52,7 +52,7 @@
     "directory-named-webpack-plugin": "^4.0.0",
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.1.0",
-    "eslint-loader": "^2.1.1",
+    "eslint-loader": "^3.0.3",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.1",
