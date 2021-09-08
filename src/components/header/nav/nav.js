@@ -6,7 +6,9 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/contact">Kontakt</Link>
+        <Link to="/contact" className="text-3xl my-4">
+          Kontakt
+        </Link>
       </li>
     </ul>
   </Container>

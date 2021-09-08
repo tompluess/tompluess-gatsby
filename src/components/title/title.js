@@ -4,7 +4,7 @@ import { Text } from './title.css';
 
 const Title = ({ children, as = 'span', size }) => {
   return (
-    <Text as={as} size={size}>
+    <Text as={as} size={size} className="my-8">
       {children}
     </Text>
   );

@@ -13,7 +13,7 @@ const Index = ({ data }) => (
       <Title as="h2" size="large">
         {data.homeJson.title}
       </Title>
-      <Markdown className="text-3xl">
+      <Markdown className="text-3xl font-light">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Markdown>{' '}
     </Box>
