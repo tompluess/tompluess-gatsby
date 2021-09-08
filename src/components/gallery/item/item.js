@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import OptionalLink from 'components/optional-link';
-import Img from 'gatsby-image';
+import { getImage, GatsbyImage } from 'gatsby-plugin-image';
 import { Title, Copy } from './item.css';
 
 const Item = ({ title, copy, image, href }) => (
   <OptionalLink href={href}>
     <figure>
-      <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+      <GatsbyImage image={image ? getImage(image) : {}} alt={title} />
       <figcaption>
         <Title>{title}</Title>
         <Copy>{copy}</Copy>
