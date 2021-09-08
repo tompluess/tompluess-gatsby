@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   siteTitle: `Tom Plüss`,
   siteTitleShort: `tompluess.ch`,
-  siteDescription: `An opinionated starter for Gatsby.`,
+  siteDescription: `Persönliche Webseite von Tom Plüss, Zürich - Berater und Begleiter für verschiedene Herausforderungen.`,
   siteUrl: `https://tompluess.ch`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
