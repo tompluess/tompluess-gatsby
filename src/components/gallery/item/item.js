@@ -9,8 +9,8 @@ const Item = ({ title, copy, image, href }) => (
     <figure>
       <GatsbyImage image={image ? getImage(image) : {}} alt={title} />
       <figcaption>
-        <Title>{title}</Title>
-        <Copy>{copy}</Copy>
+        <Title className="text-3xl my-4">{title}</Title>
+        <Copy className="text-2xl font-light my-4">{copy}</Copy>
       </figcaption>
     </figure>
   </OptionalLink>
