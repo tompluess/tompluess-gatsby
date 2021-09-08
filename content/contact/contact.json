@@ -1,9 +1,8 @@
 {
   "title": "Kontakt",
   "content": "content.md",
-  "gallery": [{
+  "image": {
     "title": "Tom Plüss",
-    "copy": "hello world",
     "image": "../images/gallery/tompluess.jpg"
-  }]
+  }
 }

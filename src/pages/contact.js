@@ -5,13 +5,14 @@ import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Gallery from 'components/gallery';
+import Item from 'components/gallery/item';
 import Head from 'components/head';
 
 const Contact = ({ data }) => (
   <Layout>
     <Head pageTitle={data.contactJson.title} />
-    <Gallery items={data.contactJson.gallery} />
     <Box>
+      <Item {...data.contactJson.image} />
       <Markdown className="text-2xl">
         {data.contactJson.content.childMarkdownRemark.rawMarkdownBody}
       </Markdown>
@@ -34,13 +35,12 @@ export const query = graphql`
           rawMarkdownBody
         }
       }
-      gallery {
+      image {
         title
-        copy
         image {
           childImageSharp {
             gatsbyImageData(
-              height: 300
+              height: 400
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
             )
