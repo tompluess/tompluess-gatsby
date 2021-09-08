@@ -1,18 +1,20 @@
 import React from 'react';
+import Markdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
 import Gallery from 'components/gallery';
 import Head from 'components/head';
 
 const Contact = ({ data }) => (
   <Layout>
     <Head pageTitle={data.contactJson.title} />
-    <Gallery items={data.homeJson.gallery} />
+    <Gallery items={data.contactJson.gallery} />
     <Box>
-      <Title>{data.homeJson.content.childMarkdownRemark.rawMarkdownBody}</Title>
+      <Markdown className="text-2xl">
+        {data.contactJson.content.childMarkdownRemark.rawMarkdownBody}
+      </Markdown>
     </Box>
   </Layout>
 );
@@ -29,7 +31,7 @@ export const query = graphql`
       title
       content {
         childMarkdownRemark {
-          html
+          rawMarkdownBody
         }
       }
       gallery {
@@ -37,9 +39,11 @@ export const query = graphql`
         copy
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(
+              height: 300
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
           }
         }
       }

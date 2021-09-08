@@ -3,7 +3,7 @@
   "content": "content.md",
   "gallery": [{
     "title": "Tom Plüss",
-    "copy": "",
-    "image": "../images/gallery/tompluess.jpeg"
+    "copy": "hello world",
+    "image": "../images/gallery/tompluess.jpg"
   }]
 }

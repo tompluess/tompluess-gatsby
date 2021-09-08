@@ -1,3 +1,5 @@
+import 'tailwindcss/tailwind.css';
+
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Markdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
@@ -12,7 +13,9 @@ const Index = ({ data }) => (
       <Title as="h2" size="large">
         {data.homeJson.title}
       </Title>
-      <Title>{data.homeJson.content.childMarkdownRemark.rawMarkdownBody}</Title>
+      <Markdown className="text-3xl">
+        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+      </Markdown>{' '}
     </Box>
     <Gallery items={data.homeJson.gallery} />
     <Box>
@@ -36,7 +39,6 @@ export const query = graphql`
       title
       content {
         childMarkdownRemark {
-          html
           rawMarkdownBody
         }
       }
