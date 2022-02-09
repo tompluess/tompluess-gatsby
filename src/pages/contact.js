@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Gallery from 'components/gallery';
 import Item from 'components/gallery/item';
 import Head from 'components/head';
 
