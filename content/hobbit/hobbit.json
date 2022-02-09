@@ -3,7 +3,12 @@
   "title": "Zirkuswagen \"Hobbit\"",
   "content": "hobbit.md",
   "gallery": [{
-    "title": "Skizzen: Grundriss, Fenster, Innenausbau",
+    "title": "Skizzen: Einteilung",
+    "copy": "1000 Ideen und 27mal umgezeichnet...",
+    "image": "../images/hobbit/20220112-skizzen.jpeg"
+  },
+  {
+    "title": "Skizzen: Fenster, Innenausbau",
     "copy": "1000 Ideen und 27mal umgezeichnet...",
     "image": "../images/hobbit/20220117-skizzen.jpeg"
   },
