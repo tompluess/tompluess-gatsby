@@ -1,0 +1,39 @@
+{
+  "slug": "hobbit",
+  "title": "Zirkuswagen \"Hobbit\"",
+  "content": "hobbit.md",
+  "gallery": [{
+    "title": "Skizzen: Grundriss, Fenster, Innenausbau",
+    "copy": "1000 Ideen und 27mal umgezeichnet...",
+    "image": "../images/hobbit/20220117-skizzen.jpeg"
+  },
+  {
+    "title": "Chassis vorher",
+    "copy": "Auf tutti gefunden, Peach sei Dank!",
+    "image": "../images/hobbit/chassis-vorher.jpeg"
+  },
+  {
+    "title": "Chassis nachher",
+    "copy": "Frisch saniert von Oli Geiger in Hinwil",
+    "image": "../images/hobbit/chassis-nachher.jpeg"
+  }],
+  "titleSecond": "Partner",
+  "gallerySecond": [{
+    "title": "Holzlabor, Winterthur ZH",
+    "copy": "Wagenbauer mit Leidenschaft",
+    "image": "../images/hobbit/holzlabor-rohbau.jpeg",
+    "href": "https://holzlabor.org"
+  },
+  {
+    "title": "Insel auf Rädern, Teufen AR",
+    "copy": " Innenausbau und Feinschliff",
+    "image": "../images/hobbit/inselaufraedern.jpeg",
+    "href": "https://www.campingviva.ch"
+  },
+  {
+    "title": "Camping Viva, Rueras GR",
+    "copy": "Naturcamping im Bündner Oberland",
+    "image": "../images/hobbit/camping-viva.jpeg",
+    "href": "https://www.campingviva.ch"
+  }]
+}
