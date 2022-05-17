@@ -10,13 +10,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Tom Plüss`,
+        short_name: `Tom Plüss`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#ffffff`,
+        theme_color: `#46a26c`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/dot.png`,
       },
     },
     `gatsby-plugin-offline`,
