@@ -17,12 +17,88 @@
     "title": "Chassis nachher",
     "copy": "Frisch saniert von Oli Geiger in Hinwil",
     "image": "../images/hobbit/chassis-nachher.jpeg"
-  }],
+  },
+  {
+    "title": "Bauplan Detail",
+    "copy": "Vom Handgezeichneten Plan vom Holzlabor",
+    "image": "../images/hobbit/Bauplan-Detail.jpeg"
+  },
+  {
+    "title": "Balken auf Chassis anbringen",
+    "copy": "Der Übergang von Metall zu Holz",
+    "image": "../images/hobbit/chassis-balken.jpeg"
+  },
+  {
+    "title": "Unterboden",
+    "copy": "Wird später umgedreht aufs Chassis geschraubt",
+    "image": "../images/hobbit/Unterboden.jpeg"
+  },
+  {
+    "title": "Die Aufrichte beginnt",
+    "copy": "Das erste von ca 13 Elementen wird gesetzt",
+    "image": "../images/hobbit/Aufrichte1.jpeg"
+  },
+  {
+    "title": "Alles Holzverbindungen mit Holznägeln",
+    "copy": "keine Schraube, keine Chemie, alles Schreiner-Fachwerk",
+    "image": "../images/hobbit/Holznaegel.jpeg"
+  },
+  {
+    "title": "Dachelemente",
+    "copy": "..es passt alles auf den Millimeter",
+    "image": "../images/hobbit/Aufrichte-Dach.jpeg"
+  },
+  {
+    "title": "Der Rohbau steht",
+    "copy": "Dank präziser Vorarbeit konnten alle Elemente in weniger als einer Stunden aufgerichtet werden",
+    "image": "../images/hobbit/Rohbau.jpeg"
+  },
+  {
+    "title": "Beim wohlverdienten Richtfest Apéro",
+    "copy": "",
+    "image": "../images/hobbit/Aufrichte-Apero.jpeg"
+  },
+  {
+    "title": "Aufrichte Strauss",
+    "copy": "Auch die Aufrichte-Dekoration darf nicht fehlen",
+    "image": "../images/hobbit/Aufrichte-Strauss.jpeg"
+  },
+  {
+    "title": "Dachlattung",
+    "copy": "Nach der Dämmung kommt bereits die Dachlattung drauf",
+    "image": "../images/hobbit/Dachlattung.jpeg"
+  },
+  {
+    "title": "Dach Abschluss",
+    "copy": "Sauber von Mats geschnitten",
+    "image": "../images/hobbit/Dachlattung-Mats.jpeg"
+  },
+  {
+    "title": "Vordach",
+    "copy": "jetzt scheint noch das Tageslicht drauf...",
+    "image": "../images/hobbit/Vordach.jpeg"
+  },
+  {
+    "title": "In der guten Stube",
+    "copy": "wird es bereits wohnlich",
+    "image": "../images/hobbit/Stube.jpeg"
+  },
+  {
+    "title": "Boden ölen",
+    "copy": "",
+    "image": "../images/hobbit/Boden-oelen.jpeg"
+  },
+  {
+    "title": "Schön aufgeräumt",
+    "copy": "Die Innenhülle ist nun bereit für den Innenausbau",
+    "image": "../images/hobbit/Boden-innen.jpeg"
+  }
+  ],
   "titleSecond": "Partner",
   "gallerySecond": [{
     "title": "Holzlabor, Winterthur ZH",
     "copy": "Wagenbauer mit Leidenschaft",
-    "image": "../images/hobbit/holzlabor-rohbau.jpeg",
+    "image": "../images/hobbit/Konstruktion-Durchblick.jpeg",
     "href": "https://holzlabor.org"
   },
   {
