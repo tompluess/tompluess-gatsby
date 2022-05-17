@@ -54,8 +54,6 @@ yarn ssr
 # To format JS (precommit)
 yarn format
 
-# To generate favicons (included in `build`)
-yarn build:favicons
 ```
 
 
@@ -84,6 +82,7 @@ yarn build:favicons
 │   │   ├── schemaGenerator.js # Generates JSON-LD schema.org snippets
 │   │   └── mediaTemplates.js # Creates media queries for styled-components
 │   ├── images # Images needed by the site/theme (not content)
+│   │   ├── icon.png
 │   ├── pages
 │   ├── store # Store and provider of a React.createContext instance
 │   └── global.css.js # Global CSS
