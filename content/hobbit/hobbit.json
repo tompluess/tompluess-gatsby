@@ -2,11 +2,7 @@
   "slug": "hobbit",
   "title": "Zirkuswagen \"Hobbit\"",
   "content": "hobbit.md",
-  "gallery": [{
-    "title": "Skizzen: Einteilung",
-    "copy": "1000 Ideen und 27mal umgezeichnet...",
-    "image": "../images/hobbit/20220112-skizzen.jpeg"
-  },
+  "gallery": [
   {
     "title": "Skizzen: Fenster, Innenausbau",
     "copy": "1000 Ideen und 27mal umgezeichnet...",
@@ -30,10 +26,10 @@
     "href": "https://holzlabor.org"
   },
   {
-    "title": "Insel auf Rädern, Teufen AR",
-    "copy": " Innenausbau und Feinschliff",
-    "image": "../images/hobbit/inselaufraedern.jpeg",
-    "href": "https://www.campingviva.ch"
+    "title": "Energiegenossenschaft Schweiz",
+    "copy": "Solaranlage",
+    "image": "../images/hobbit/egch_solaranlage2.png",
+    "href": "https://www.energiegenossenschaft.ch/"
   },
   {
     "title": "Camping Viva, Rueras GR",
