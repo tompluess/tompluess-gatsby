@@ -1,0 +1,9 @@
+{
+  "title": "Angebot",
+  "content": "content.md",
+  "image": {
+    "title": "Feuer",
+    "copy": "Das Feuer in seiner Seele soll man nie ausgehen lassen, sondern schüren.  -  Vincent van Gogh",
+    "image": "../images/gallery/feuer.png"
+  }
+}

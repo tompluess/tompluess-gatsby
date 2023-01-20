@@ -7,5 +7,4 @@ Füge mich zu deinem Adressbuch hinzu
 
 [![Füge mich zu deinem Adressbuch hinzu (VCard)](/tompluess-qr.png)](/tompluess.vcf)
 
-
 Diese Webseite auf [GitHub](https://github.com/tompluess/tompluess)
