@@ -68,7 +68,7 @@ yarn format
 │   │   ├── head # All meta tags etc.
 │   │   ├── io # Intersection Observer component, uses render props
 │   │   ├── layout # Layout component
-│   │   │   ├── layout.css.js # .css.js for component's `styled-components`
+│   │   │   ├── layout.css # Main CSS for Layout
 │   │   │   └── layout.js
 │   │   └── transition # Page Transition component, used by Gatsby APIs
 │   ├── constants # Site-wide constants (breakpoints, colors, etc.)
@@ -79,8 +79,7 @@ yarn format
 │   ├── images # Images needed by the site/theme (not content)
 │   │   ├── icon.png
 │   ├── pages
-│   ├── store # Store and provider of a React.createContext instance
-│   └── global.css.js # Global CSS
+│   └── store # Store and provider of a React.createContext instance
 └── scripts
     ├── lighthouse.test.js # Tests the site specified inside `site-config.js` with Google Lighthouse (WIP)
     └── favicons.js # Generates favicons and manifest using one png only.

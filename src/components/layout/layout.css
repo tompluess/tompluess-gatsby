@@ -1,0 +1,116 @@
+@tailwind base;
+
+@tailwind components;
+
+
+/* purgecss start ignore */
+
+/* set height on elements added automatically by Gatsby */
+/* https://github.com/gatsbyjs/gatsby/issues/7310 */
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+}
+body {
+  margin: 0px;
+}
+
+.markdown p {
+  @apply mt-4 text-lg font-light
+}
+
+.markdown a {
+  @apply text-blue-700
+}
+
+.markdown h1 {
+  @apply mt-4 text-3xl font-extralight leading-tight
+}
+
+.markdown h2 {
+  @apply mt-4 text-2xl font-bold leading-tight
+}
+
+.markdown h3 {
+  @apply mt-4 text-xl font-bold
+}
+
+.markdown h4 {
+  @apply mt-4 text-xl
+}
+
+.markdown h1 + p,
+.markdown h2 + p {
+  @apply mt-2
+}
+
+.markdown * + h1,
+.markdown * + h2 {
+  @apply mt-8
+}
+
+.markdown h1 + h1,
+.markdown h2 + h2 {
+  @apply mt-0
+}
+
+.markdown img {
+  @apply my-8
+}
+
+.markdown pre {
+  @apply my-2
+}
+
+.markdown ul {
+  @apply pl-6 list-disc
+}
+
+.markdown li {
+  @apply mt-2 text-lg font-light
+}
+
+.markdown-slogan strong {
+  @apply font-bold
+}
+
+.markdown-large p {
+  @apply text-2xl font-extralight
+}
+
+.markdown-large a {
+  @apply text-blue-700;
+}
+
+.markdown-large h2 {
+  @apply mt-4 text-2xl font-bold
+}
+
+.markdown-large h3 {
+  @apply mt-4 text-2xl font-normal
+}
+
+.markdown-space p {
+  @apply my-10
+}
+
+.markdown-space h3 + p {
+  @apply mt-4
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* purgecss end ignore */
+
+@tailwind utilities;
