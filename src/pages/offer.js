@@ -32,6 +32,7 @@ export const query = graphql`
         }
       }
       image {
+        title
         copy
         image {
           childImageSharp {
