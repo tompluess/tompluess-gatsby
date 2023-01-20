@@ -1,6 +1,7 @@
 # Website of Tom Plüss
 
-***
+Deployed on [vercel.com](https://vercel.com).
+Live site here: [tompluess.ch](https://tompluess.ch).
 
 ## Features
 
@@ -26,12 +27,7 @@
 
 Do you have suggestions or feedback? [Open an issue](https://github.com/fabe/gatsby-universal/issues/new)!
 
-## Lighthouse scores (on [Netlify](https://netlify.com))
-
-[![Lighthouse scores (on Netlify)](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/fabe/gatsby-universal)
-
 ## Usage
-
 
 ```bash
 # Installation with `gatsby-cli`
@@ -56,11 +52,10 @@ yarn format
 
 ```
 
-
-
 > 🚨 Don't forget to update your `robots.txt` inside `static/`!
 
 ## Folder structure
+
 ```bash
 ├── gatsby-browser.js # Specify how Gatsby renders pages in the browser
 ├── gatsby-config.js # Gatsby config, mostly taken from `site-config.js`
