@@ -7,9 +7,13 @@
 
 /* set height on elements added automatically by Gatsby */
 /* https://github.com/gatsbyjs/gatsby/issues/7310 */
-html, body, #___gatsby, #gatsby-focus-wrapper {
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
   height: 100%;
 }
+
 body {
   margin: 0px;
 }
@@ -19,7 +23,7 @@ p {
 }
 
 a {
-  @apply text-neutral-500
+  @apply text-purple-500
 }
 
 h1 {
@@ -38,18 +42,18 @@ h4 {
   @apply mt-4 text-xl
 }
 
-h1 + p,
-h2 + p {
+h1+p,
+h2+p {
   @apply mt-2
 }
 
-* + h1,
-* + h2 {
+*+h1,
+*+h2 {
   @apply mt-8
 }
 
-h1 + h1,
-h2 + h2 {
+h1+h1,
+h2+h2 {
   @apply mt-0
 }
 

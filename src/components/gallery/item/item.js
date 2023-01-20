@@ -8,8 +8,8 @@ const Item = ({ title, copy, image, href }) => (
     <figure>
       <GatsbyImage image={image ? getImage(image) : {}} alt={title} />
       <figcaption>
-        <div className="text-xl font-semibold my-6">{title}</div>
-        <div className="text-xl font-light my-4">{copy}</div>
+        <div className="text-l font-medium my-4">{title}</div>
+        <div className="text-l font-extralight mt-4 mb-8">{copy}</div>
       </figcaption>
     </figure>
   </OptionalLink>
