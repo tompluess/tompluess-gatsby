@@ -2,15 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import OptionalLink from 'components/optional-link';
 import { getImage, GatsbyImage } from 'gatsby-plugin-image';
-import { Title, Copy } from './item.css';
 
 const Item = ({ title, copy, image, href }) => (
   <OptionalLink href={href}>
     <figure>
       <GatsbyImage image={image ? getImage(image) : {}} alt={title} />
       <figcaption>
-        <Title className="text-3xl my-6">{title}</Title>
-        <Copy className="text-3xl font-light my-4">{copy}</Copy>
+        <div className="text-xl font-semibold my-6">{title}</div>
+        <div className="text-xl font-light my-4">{copy}</div>
       </figcaption>
     </figure>
   </OptionalLink>
