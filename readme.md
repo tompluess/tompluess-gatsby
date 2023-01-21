@@ -5,12 +5,10 @@ Live site here: [tompluess.ch](https://tompluess.ch).
 
 ## Features
 
+- [X] 🌊 [Tailwind CSS](https://tailwindcss.com/)
+- [X] 🍔 Responsive Hamburger Menu
 - [X] 🤩 Page Transitions, component-based (with no-js support)
-- [X] 👮‍♂️ `IntersectionObserver`, component-based (with polyfill)
-- [X] 🌿 React Context for global UI state, with SSR
-- [X] 💅 [`styled-components`](https://www.styled-components.com/) v4
 - [X] 💯 Optimized with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) (including test)
-- [X] 🔥 Code Splitting of CSS and JS (component based)
 - [X] 🔪 Inline SVG support
 - [X] ⚙️ One config file for site-wide settings
 - [X] 💙 Most social + meta tags in one component
