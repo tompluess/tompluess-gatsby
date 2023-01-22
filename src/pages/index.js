@@ -2,26 +2,21 @@ import React from 'react';
 import Markdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
-import Box from 'components/box';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
-    <Box>
       <h1>
         {data.homeJson.title}
       </h1>
       <Markdown className="text-xl font-light">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Markdown>{' '}
-    </Box>
     <Gallery items={data.homeJson.gallery} />
-    <Box>
       <h2>
         {data.homeJson.titleSecond}
       </h2>
-    </Box>
     <Gallery items={data.homeJson.gallerySecond} />
   </Layout>
 );
