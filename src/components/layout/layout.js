@@ -6,10 +6,12 @@ import Header from 'components/header';
 import "./layout.css";
 
 const Layout = ({ data, children }) => (
-  <div>
+  <div className="">
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
-    {children}
+    <div className="px-8 md:px-16 lg:px-32 pt-16">
+      {children}
+    </div>
   </div>
 );
 

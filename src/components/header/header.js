@@ -22,8 +22,8 @@ const AnimatedContainer = posed.div({
 
 const Header = ({ title }) => (
   <AnimatedContainer>
-    <header className="header fixed z-20 w-full flex flex-col top-0 px-16 pt-5 opacity-90 bg-white">
-      <div className="flex flex-row justify-between content-start w-full max-w-screen-lg ">
+    <header className="header fixed z-20 w-full flex flex-col top-0 px-8 md:px-16 lg:px-32 pt-5 opacity-90 bg-white">
+      <div className="flex flex-row justify-between content-start w-full">
         <a href="/" className="mt-1 md:mt-0">
           <Logo />
           <span className="text-2xl">{title}</span>
