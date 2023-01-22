@@ -11,11 +11,11 @@ const menuData = [
 
 const HamburgerButton = ({ onClick }) => (
   <button type="button" onClick={onClick} className="self-end" >
-    <svg className="w-16 h-16 fill-current text-white" viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-8 h-8 fill-current text-white" viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg">
       <title>Menu</title>
       <circle cx="20.5" cy="20.5" r="20.5" />
       <path
-        stroke="black"
+        stroke="gray"
         strokeWidth="2"
         d="M0 10 H41 M0 25 H41 M0 40 H41"
       />
@@ -25,10 +25,10 @@ const HamburgerButton = ({ onClick }) => (
 
 const CrossButton = ({ onClick }) => (
   <button type="button" onClick={onClick} className="self-end" >
-    <svg className="w-16 h-16 fill-current text-white" viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-8 h-8 fill-current text-white" viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg">
       <g
         clipPath="url(#clip0)"
-        stroke="black"
+        stroke="gray"
         strokeWidth="2"
         strokeMiterlimit="10"
       >
@@ -43,7 +43,7 @@ HamburgerButton.propTypes = {
 }
 const MenuItem = ({ menuItem, className }) => (
   <div className={className}>
-    <Link to={menuItem.link} className={className}>
+    <Link to={menuItem.link} >
       <span className="text-2xl font-light">{menuItem.title}</span>
     </Link>
   </div>
@@ -57,38 +57,38 @@ const Nav = ({ subNav }) => {
 
   return (
     <>
-        <nav>
-            <div className="md:hidden text-right">
-              {navigationOpen ? (
-                <CrossButton onClick={closeMenu} />
-              ) : (
-                <HamburgerButton onClick={openMenu} />
-              )}
-            </div>
-            <div className="flex md:h-full my-6">
-              {menuData.map(menuItem => {
-                return <MenuItem
-                    menuItem={menuItem}
-                    className="hidden md:block text-right mx-2"
-                  />
-              })}
-            </div>
-
+      <nav>
+        <div className="md:hidden text-right">
           {navigationOpen ? (
-            <div className="flex flex-col md:hidden">
-              {menuData.map(menuItem => {
-                return (
-                  <MenuItem
-                    menuItem={menuItem}
-                    className="flex self-end my-4 "
-                  />
-                )
-              })}
-            </div>
+            <CrossButton onClick={closeMenu} />
           ) : (
-            <div className="hidden" />
+            <HamburgerButton onClick={openMenu} />
           )}
-        </nav>
+        </div>
+        <div className="hidden md:flex md:h-full">
+          {menuData.map(menuItem => {
+            return <MenuItem
+                menuItem={menuItem}
+                className="hidden md:block text-right ml-8"
+              />
+          })}
+        </div>
+
+        {navigationOpen ? (
+          <div className="flex flex-col md:hidden">
+            {menuData.map(menuItem => {
+              return (
+                <MenuItem
+                  menuItem={menuItem}
+                  className="flex self-end my-4 "
+                />
+              )
+            })}
+          </div>
+        ) : (
+          <div className="hidden" />
+        )}
+      </nav>
     </>
   )
 }
