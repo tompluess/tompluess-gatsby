@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
 import posed from 'react-pose';
-import { Container } from './header.css';
-import Title from 'components/title';
-import Nav from 'components/header/nav';
+import Logo from './logo'
+import Nav from './nav';
 
 // Example of a component-specific page transition
 const AnimatedContainer = posed.div({
@@ -24,13 +22,16 @@ const AnimatedContainer = posed.div({
 
 const Header = ({ title }) => (
   <AnimatedContainer>
-    <Container>
-      <Link to="/">
-        <Title as="h1">{title}</Title>
-      </Link>
-
-      <Nav />
-    </Container>
+    <header className="header fixed z-20 w-full flex flex-col top-0 px-8 md:px-16 lg:px-32 pt-5 opacity-90 bg-white">
+      <div className="flex flex-row justify-between content-start w-full">
+        <a href="/" className="mt-1 md:mt-0">
+          <Logo />
+          <span className="text-2xl">{title}</span>
+        </a>
+        <Nav />
+      </div>
+    </header>
+    <div className="mb-16"/>
   </AnimatedContainer>
 );
 

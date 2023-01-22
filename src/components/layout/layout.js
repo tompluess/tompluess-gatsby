@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import Head from 'components/head';
 import Header from 'components/header';
-import GlobalStyle from 'global.css.js';
+import "./layout.css";
 
 const Layout = ({ data, children }) => (
-  <div>
-    <GlobalStyle />
+  <div className="">
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
-    {children}
+    <div className="px-8 md:px-16 lg:px-32 pt-16">
+      {children}
+    </div>
   </div>
 );
 

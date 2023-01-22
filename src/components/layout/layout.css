@@ -1,0 +1,100 @@
+@tailwind base;
+
+@tailwind components;
+
+
+/* purgecss start ignore */
+
+/* set height on elements added automatically by Gatsby */
+/* https://github.com/gatsbyjs/gatsby/issues/7310 */
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+p {
+  @apply mt-4 text-lg font-light
+}
+
+a {
+  @apply text-purple-500
+}
+
+.header a:hover, a:hover {
+  @apply text-orange-500
+}
+
+.header a {
+  @apply text-gray-700
+}
+
+h1 {
+  @apply mt-4 text-2xl font-medium leading-tight
+}
+
+h2 {
+  @apply mt-4 text-2xl font-semibold leading-tight
+}
+
+h3 {
+  @apply mt-4 text-xl font-bold
+}
+
+h4 {
+  @apply mt-4 text-xl
+}
+
+h1+p,
+h2+p {
+  @apply mt-2
+}
+
+*+h1,
+*+h2 {
+  @apply mt-8
+}
+
+h1+h1,
+h2+h2 {
+  @apply mt-0
+}
+
+img {
+  @apply my-8
+}
+
+pre {
+  @apply my-2
+}
+
+ul {
+  @apply pl-6 list-disc
+}
+
+li {
+  @apply mt-2 text-lg font-light
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* purgecss end ignore */
+
+@tailwind utilities;
