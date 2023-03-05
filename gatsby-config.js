@@ -19,7 +19,6 @@ module.exports = {
         icon: `src/images/dot.png`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-eslint`,
