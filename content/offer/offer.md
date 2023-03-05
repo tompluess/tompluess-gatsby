@@ -11,15 +11,11 @@ Mit meinem beruflichen Hintergrund als Software Engineer, kann ich in diesem Ber
 Oft kommen Menschen zu mir, welche in digitalen Bereichen ihres Lebens Rat suchen.
 Sei es zum Konzipieren oder Erstellen einer Webseite, Evaluieren von Cloud-Lösungen für ihr Unternehmen bis hin zur Unterstützung bei der Digitalisierung von Prozessen.
 
-[Unverbindlicher Beratungstermin vereinbaren](https://calendly.com/tompluess/treffpunkt)
-
 ## Einzelcoaching
 
 Reduzieren, Klarheit gewinnen, Durchstarten.
 
 Mein Coaching-Angebot richtet sich an Menschen, welche Ordnung in ihr Leben bringen möchten. Zur Anwendung kommen verschiedene Methoden aus agiler Projektführung, systemischer Begleitung und kreativ-ritueller Prozessgestaltung. Bei letzterer bediene ich mich gern aus dem Methodenkoffer meiner Ausbildungen bei [planoalto](https://planoalto.ch/).
-
-[Termin vereinbaren](https://calendly.com/tompluess/coaching)
 
 ## Moderation und Begleitung von Gruppen
 
@@ -28,6 +24,4 @@ Einerseits kann ich Organisation und Struktur bieten. Andererseits lege ich Wert
 Gespräche auf Augenhöhe,
 Soziokratie, Kreisgespräche und gemeinschaftliche Entscheidungsfindungsprozesse (zum Beispiel [Konsent](https://www.soziokratie.org/elemente/konsent/)).
 
-[Unverbindlicher Beratungstermin vereinbaren](https://calendly.com/tompluess/treffpunkt)
-
-Preise auf Anfrage.
+Um herauszufinden wie ich dich optimal unterstützen kann, biete ich dir gern einen unverbindlichen Beratungstermin an:

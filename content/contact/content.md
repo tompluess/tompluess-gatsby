@@ -1,9 +1,3 @@
-# Tom Plüss
-
-Oberwil b. Zug, Schweiz
-
-[+41 78 646 93 94](tel:+41786469394)
-
 Füge mich zu deinem Adressbuch hinzu
 (QR Code klicken oder scannen):
 
