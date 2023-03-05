@@ -1,5 +1,5 @@
+# Herzlich Willkommen bei Tom Plüss
 
-Tom Plüss ist als Berater vielseitig tätig.
+Ich bin als [Berater und Begleiter](/offer) vielseitig tätig.
 
-Sein Vorgehen zeichnet sich aus durch die Kombination von systemischem Denken & analytischer Vorgehensweise.
-
+Mein Vorgehen zeichnet sich aus durch die Kombination von systemischem Denken & analytischer Vorgehensweise.
