@@ -35,7 +35,7 @@ a {
 }
 
 h1 {
-  @apply mt-4 text-2xl font-medium leading-loose
+  @apply my-6 text-2xl font-medium
 }
 
 h2 {

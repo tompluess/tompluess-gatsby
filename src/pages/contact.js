@@ -9,7 +9,9 @@ import Head from 'components/head';
 const Contact = ({ data }) => (
   <Layout>
     <Head pageTitle={data.contactJson.title} />
-    <Item {...data.contactJson.image} />
+    <div className="mt-6" >
+      <Item {...data.contactJson.image} />
+    </div>
     <Markdown className="text-2xl">
       {data.contactJson.content.childMarkdownRemark.rawMarkdownBody}
     </Markdown>
