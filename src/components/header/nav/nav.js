@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const menuData = [
-  { title: 'Home', link: '/' },
-  // { title: 'Angebot', link: '/offer' },
+  { title: 'Angebot', link: '/offer' },
   { title: 'Kontakt', link: '/contact' },
   { title: 'Hobbit', link: '/hobbit' },
 ]

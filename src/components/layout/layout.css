@@ -35,11 +35,11 @@ a {
 }
 
 h1 {
-  @apply mt-4 text-2xl font-medium leading-tight
+  @apply my-6 text-2xl font-medium
 }
 
 h2 {
-  @apply mt-4 text-2xl font-semibold leading-tight
+  @apply mt-4 text-xl font-medium leading-tight
 }
 
 h3 {

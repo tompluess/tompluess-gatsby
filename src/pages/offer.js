@@ -6,27 +6,25 @@ import Layout from 'components/layout';
 import Item from 'components/gallery/item';
 import Head from 'components/head';
 
-const Contact = ({ data }) => (
+const Offer = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.contactJson.title} />
-    <div className="mt-6" >
-      <Item {...data.contactJson.image} />
-    </div>
+    <Head pageTitle={data.offerJson.title} />
     <Markdown className="text-2xl">
-      {data.contactJson.content.childMarkdownRemark.rawMarkdownBody}
+      {data.offerJson.content.childMarkdownRemark.rawMarkdownBody}
     </Markdown>
+    <Item {...data.offerJson.image} />
   </Layout>
 );
 
-Contact.propTypes = {
+Offer.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Contact;
+export default Offer;
 
 export const query = graphql`
-  query ContactQuery {
-    contactJson {
+  query OfferQuery {
+    offerJson {
       title
       content {
         childMarkdownRemark {
@@ -35,6 +33,7 @@ export const query = graphql`
       }
       image {
         title
+        copy
         image {
           childImageSharp {
             gatsbyImageData(

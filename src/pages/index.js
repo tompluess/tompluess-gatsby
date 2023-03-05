@@ -7,12 +7,9 @@ import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
-      <h1>
-        {data.homeJson.title}
-      </h1>
-      <Markdown className="text-xl font-light">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Markdown>{' '}
+    <Markdown className="text-xl font-light">
+      {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+    </Markdown>{' '}
     <Gallery items={data.homeJson.gallery} />
       <h2>
         {data.homeJson.titleSecond}
