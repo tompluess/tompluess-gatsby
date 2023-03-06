@@ -9,10 +9,15 @@ import Head from 'components/head';
 const Offer = ({ data }) => (
   <Layout>
     <Head pageTitle={data.offerJson.title} />
-    <Markdown className="text-2xl">
+    <Markdown>
       {data.offerJson.content.childMarkdownRemark.rawMarkdownBody}
     </Markdown>
-    <Item {...data.offerJson.image} />
+    <p class="mt-8 mb-16">
+      <a class="button" href="https://calendly.com/tompluess/consulting">Termin vereinbaren</a>
+    </p>
+    <div className="mt-8">
+      <Item {...data.offerJson.image} />
+    </div>
   </Layout>
 );
 

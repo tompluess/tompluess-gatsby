@@ -26,7 +26,12 @@ a {
   @apply text-purple-500
 }
 
-.header a:hover, a:hover {
+a.button {
+  @apply px-4 py-2 rounded-full bg-purple-500 text-white
+}
+
+.header a:hover,
+a:hover {
   @apply text-orange-500
 }
 

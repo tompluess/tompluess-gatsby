@@ -12,7 +12,13 @@ const Contact = ({ data }) => (
     <div className="mt-6" >
       <Item {...data.contactJson.image} />
     </div>
-    <Markdown className="text-2xl">
+    <h1>Tom Plüss</h1>
+    <p>Oberwil b. Zug</p>
+    <p><a href="tel:+41786469394">+41 78 646 93 94</a></p>
+    <p class="my-8">
+      <a class="button" href="https://calendly.com/tompluess/treffpunkt">Termin vereinbaren</a>
+    </p>
+    <Markdown>
       {data.contactJson.content.childMarkdownRemark.rawMarkdownBody}
     </Markdown>
   </Layout>
