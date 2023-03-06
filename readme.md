@@ -1,7 +1,7 @@
 # Website of Tom Plüss
 
-Deployed on [vercel.com](https://vercel.com).
-Live site here: [tompluess.ch](https://tompluess.ch).
+Live site: [tompluess.ch](https://tompluess.ch)
+Deployed on: [vercel.com](https://vercel.com)
 
 ## Features
 
@@ -70,7 +70,6 @@ yarn format
 │   │   │   └── layout.js
 │   │   └── transition # Page Transition component, used by Gatsby APIs
 │   ├── constants # Site-wide constants (breakpoints, colors, etc.)
-│   ├── containers # Container components if store is needed
 │   ├── helpers
 │   │   ├── schemaGenerator.js # Generates JSON-LD schema.org snippets
 │   │   └── mediaTemplates.js # Creates media queries for styled-components
