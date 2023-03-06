@@ -5,7 +5,6 @@ module.exports = {
     ...siteConfig,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,

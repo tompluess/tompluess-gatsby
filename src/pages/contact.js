@@ -3,12 +3,11 @@ import Markdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
+import HeadWithQuery from 'components/head';
 import Item from 'components/gallery/item';
-import Head from 'components/head';
 
 const Contact = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.contactJson.title} />
     <div className="mt-6" >
       <Item {...data.contactJson.image} />
     </div>
@@ -27,6 +26,8 @@ const Contact = ({ data }) => (
 Contact.propTypes = {
   data: PropTypes.object.isRequired,
 };
+
+export const Head = ({ data }) => <HeadWithQuery pageTitle={data.contactJson.title} />
 
 export default Contact;
 

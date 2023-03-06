@@ -2,11 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
-import Head from 'components/head';
+import HeadWithQuery from 'components/head';
 
 const About = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
     <div
       dangerouslySetInnerHTML={{
         __html: data.aboutJson.content.childMarkdownRemark.html,
@@ -18,6 +17,8 @@ const About = ({ data }) => (
 About.propTypes = {
   data: PropTypes.object.isRequired,
 };
+
+export const Head = ({ data }) => <HeadWithQuery pageTitle={data.aboutJson.title} />
 
 export default About;
 

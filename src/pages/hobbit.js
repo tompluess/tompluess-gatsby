@@ -2,6 +2,7 @@ import React from 'react';
 import Markdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
+import HeadWithQuery from 'components/head';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 
@@ -29,6 +30,8 @@ const Index = ({ data }) => (
 Index.propTypes = {
   data: PropTypes.object.isRequired,
 };
+
+export const Head = ({ data }) => <HeadWithQuery pageTitle={data.hobbitJson.title} />
 
 export default Index;
 

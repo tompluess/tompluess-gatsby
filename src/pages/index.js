@@ -22,6 +22,8 @@ Index.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
+export { default as Head } from 'components/head'
+
 export default Index;
 
 export const query = graphql`
