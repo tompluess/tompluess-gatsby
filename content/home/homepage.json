@@ -16,7 +16,7 @@
     "copy": "Und das Richtige tun",
     "image": "../images/gallery/morgenrot.jpeg"
   }],
-  "titleSecond": "Tätigkeitsgebiete",
+  "titleSecond": "Weitere Tätigkeitsgebiete",
   "gallerySecond": [{
     "title": "Simplificator",
     "copy": "Berater, Software Engineer, Mitglied der Geschäftsleitung",
@@ -28,5 +28,11 @@
     "copy": "Leiter",
     "image": "../images/gallery/feuer-3toepfe-abend.jpeg",
     "href": "https://www.nomadenkreis.ch"
+  },
+  {
+    "title": "Zirkswagen Hobbit",
+    "copy": "Mein Zirkuswagen kann für Ferien oder eine Auszeit gemietet werden",
+    "image": "../images/hobbit/Hobbit-verschneiter-Berggipfel.jpeg",
+    "href": "https://subscribepage.io/hobbit"
   }]
 }
