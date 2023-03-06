@@ -7,17 +7,22 @@ import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
-    <h1>
-      {data.hobbitJson.title}
-    </h1>
-    <Markdown className="text-3xl font-light">
-      {data.hobbitJson.content.childMarkdownRemark.rawMarkdownBody}
-    </Markdown>{' '}
-  <Gallery items={data.hobbitJson.gallery} />
-    <h2>
-      {data.hobbitJson.titleSecond}
-    </h2>
-  <Gallery items={data.hobbitJson.gallerySecond} />
+    <div  class="max-w-2xl">
+      <Markdown>
+        {data.hobbitJson.content.childMarkdownRemark.rawMarkdownBody}
+      </Markdown>
+    </div>
+    <p class="mt-8 mb-16">
+      <a class="button" href="https://subscribepage.io/hobbit">Weitere Infos</a>
+    </p>
+    <h2>{data.hobbitJson.titleFirst}</h2>
+    <Gallery items={data.hobbitJson.galleryFirst} />
+    <p class="max-w-2xl">Wenn du auch mal ein paar Tage im Zirkuswagen "Hobbit" wohnen möchtest, kannst du bei folgendem Link weitere Infos dazu bestellen:</p>
+    <p class="mt-8 mb-16">
+      <a class="button" href="https://subscribepage.io/hobbit">Weitere Infos</a>
+    </p>
+    <h2>{data.hobbitJson.titleSecond}</h2>
+    <Gallery items={data.hobbitJson.gallerySecond} />
   </Layout>
 );
 
@@ -36,7 +41,8 @@ export const query = graphql`
           rawMarkdownBody
         }
       }
-      gallery {
+      titleFirst
+      galleryFirst {
         title
         copy
         image {
