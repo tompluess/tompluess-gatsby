@@ -6,7 +6,7 @@ import "./layout.css";
 
 const Layout = ({ data, children }) => (
   <div class="flex justify-center">
-    <Header title={data.site.siteMetadata.siteTitle} />
+    <Header title={data.site.siteMetadata.siteTitleShort} />
     <div class="w-full max-w-screen-2xl px-2 sm:px-6 md:px-16 lg:px-32 pt-32">
       {children}
     </div>
@@ -25,6 +25,7 @@ const LayoutWithQuery = props => (
         site {
           siteMetadata {
             siteTitle
+            siteTitleShort
           }
         }
       }
