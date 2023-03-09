@@ -1,24 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import { Location } from '@reach/router';
 import schemaGenerator from 'helpers/schemaGenerator';
 
 const Head = ({
   siteTitle,
+  siteTitleShort,
   siteDescription,
   siteUrl,
   pageTitle,
-  pageTitleFull = pageTitle ? `${siteTitle}: ${pageTitle}` : siteTitle,
+  pageTitleFull = pageTitle ? `${siteTitleShort} - ${pageTitle}` : siteTitle,
   themeColor,
   social,
   imageUrl,
   location,
   canonical = siteUrl + (location.pathname || ''),
 }) => (
-  <Helmet>
-    <html lang="en" />
+  <>
+    <html lang="de" />
 
     <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
     <meta
@@ -162,7 +162,7 @@ const Head = ({
         })
       )}
     </script>
-  </Helmet>
+  </>
 );
 
 Head.propTypes = {
@@ -207,5 +207,6 @@ const HeadWithQuery = props => (
     )}
   />
 );
+
 
 export default HeadWithQuery;

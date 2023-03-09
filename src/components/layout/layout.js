@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
-import Head from 'components/head';
 import Header from 'components/header';
 import "./layout.css";
 
 const Layout = ({ data, children }) => (
   <div class="flex justify-center">
-    <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
+    <Header title={data.site.siteMetadata.siteTitleShort} />
     <div class="w-full max-w-screen-2xl px-2 sm:px-6 md:px-16 lg:px-32 pt-32">
       {children}
     </div>
@@ -27,6 +25,7 @@ const LayoutWithQuery = props => (
         site {
           siteMetadata {
             siteTitle
+            siteTitleShort
           }
         }
       }
@@ -38,5 +37,6 @@ const LayoutWithQuery = props => (
 LayoutWithQuery.propTypes = {
   children: PropTypes.node.isRequired,
 };
+
 
 export default LayoutWithQuery;

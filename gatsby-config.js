@@ -5,12 +5,11 @@ module.exports = {
     ...siteConfig,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Tom Plüss`,
+        name: `Tom Plüss - Berater, Coach, Software Engineer`,
         short_name: `Tom Plüss`,
         start_url: `/`,
         background_color: `#ffffff`,
