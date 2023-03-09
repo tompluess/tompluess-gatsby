@@ -14,7 +14,7 @@ module.exports = {
         short_name: `Tom Plüss`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#46a26c`,
+        theme_color: `#454c9b`,
         display: `standalone`,
         icon: `src/images/dot.png`,
       },

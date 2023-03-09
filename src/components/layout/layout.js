@@ -9,7 +9,7 @@ const Layout = ({ data, children }) => (
   <div class="flex justify-center">
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
-    <div class="w-full max-w-screen-2xl px-8 md:px-16 lg:px-32 pt-32">
+    <div class="w-full max-w-screen-2xl px-2 sm:px-6 md:px-16 lg:px-32 pt-32">
       {children}
     </div>
   </div>
