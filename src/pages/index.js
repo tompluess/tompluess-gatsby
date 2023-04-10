@@ -3,8 +3,16 @@ import Markdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import HeadWithQuery from 'components/head';
-import Gallery from 'components/gallery';
+import Item from 'components/gallery/item';
 import { graphql } from 'gatsby';
+
+const Gallery = ({ items }) => (
+  <div className="grid-cols-3 gap-8 py-8 lg:grid">
+    {items.map((item, i) => (
+      <Item {...item} key={i} />
+    ))}
+  </div>
+);
 
 const Index = ({ data }) => (
   <Layout>
