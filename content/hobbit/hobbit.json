@@ -96,17 +96,17 @@
   },
   {
     "title": "Kisten unter dem Bett",
-    "copy": "",
+    "copy": "Jeder Kubik wird genutzt, als Wohn- oder Stauraum",
     "image": "../images/hobbit/bett-kisten.jpeg"
   },
   {
     "title": "Konstruktion fürs Hochbett",
-    "copy": "",
+    "copy": "Mit Bögen, analog zur Grundkonstruktion",
     "image": "../images/hobbit/bett-bogen.jpeg"
   },
   {
     "title": "Strom & Licht werden angeschlossen",
-    "copy": "",
+    "copy": "Romain am Strömerle",
     "image": "../images/hobbit/licht-romain.jpeg"
   },
   {
@@ -135,98 +135,93 @@
     "image": "../images/hobbit/facade-finalisieren.jpeg"
   },
   {
-    "title": "Treppe",
-    "copy": "",
-    "image": "../images/hobbit/treppe.jpeg"
-  },
-  {
-    "title": "",
-    "copy": "",
+    "title": "Küchenelement",
+    "copy": "Nadine & Margret leisten Präzisionsarbeit",
     "image": "../images/hobbit/kueche-schreinerin.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
-    "image": "../images/hobbit/kuechen-element.jpeg"
-  },
-  {
-    "title": "",
-    "copy": "",
+    "title": "Kücheneinbau",
+    "copy": "Kaum ist die Küche eingebaut, gibt's auch den ersten Apéro",
     "image": "../images/hobbit/kueche-eingebaut-apero.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Endspurt",
+    "copy": "Finalisieren an allen Ecken",
     "image": "../images/hobbit/finalisieren-an-allen-ecken.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Nadine die Bauleiterin",
+    "copy": "Danke für deinen grossartigen Einsatz!",
     "image": "../images/hobbit/bauleiterin-geschafft.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Geburtsstunde",
+    "copy": "Adi holt mich und den Hobbit mit seinem über 60-jährigen Kramer Allrad ab",
     "image": "../images/hobbit/geburts-moment.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "On the road",
+    "copy": "200km mit 30km/h gibt 7h Fahrzeit von Winti ZH nach Rueras GR",
     "image": "../images/hobbit/on-the-road.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Platziert",
+    "copy": "Schön rückwärts einparkiert",
     "image": "../images/hobbit/ankunft-rueras.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Aufgebockt & nivelliert",
+    "copy": "Mit Adis Hilfe bringen wir den Wagen auch am leicht geneigten Standort ins Lot",
     "image": "../images/hobbit/camping-viva-aufgebockt.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Küche",
+    "copy": "Bald ist alles eingerichtet und es wird wohnlich",
     "image": "../images/hobbit/kueche-eingerichtet.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Feuertaufe",
+    "copy": "Das erste Feuer im neuen Ofen \"Pluto\" von Globefire",
     "image": "../images/hobbit/erstes-feuer.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Bett, mit optionalem Hochbett",
+    "copy": "Es wird gemütlich, bald schon kommen die ersten Gäste",
     "image": "../images/hobbit/Hobbit-cosy.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Einweihungsfeier im Familienkreis",
+    "copy": "Obwohl Sommerferien war es draussen feucht und kühl - so gab es Apéro für 19 Menschen gleichzeitig im Hobbit",
+    "image": "../images/hobbit/hobbit-besuch.jpeg"
+  },
+  {
+    "title": "Erster Schnee",
+    "copy": "Die Spannung steigt... wie wohnt es sich im Hobbit, wenn es kälter wird?",
     "image": "../images/hobbit/hobbit-erster-schnee.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Tief eingeschneit",
+    "copy": "Dank dem \"Pluto\" ist es drinnen innert kurzer Zeit warm und gemütlich",
     "image": "../images/hobbit/tief-verschneit.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
-    "image": "../images/hobbit/solaranlage-angeschlossen.jpeg"
-  },
-  {
-    "title": "",
-    "copy": "",
+    "title": "Dach freigeschaufelt",
+    "copy": "Der Anschluss-Termin für die Solaranlage ist wohl auf den Tag mit dem meisten Neuschnee gefallen",
     "image": "../images/hobbit/solaranlage-freigeschaufelt.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Solaranlage angeschlossen",
+    "copy": "Nach mehreren Monaten Lieferverzögerung des Wechselrichters ist die Solaranlage nun endlich am Netz - und produziert ca. doppelt so viel Strom, wie der Hobbit selber braucht (hochgerechnet, über's Jahr gemittelt)",
+    "image": "../images/hobbit/solaranlage-angeschlossen.jpeg"
+  },
+  {
+    "title": "Romain, der Profi-Solarteur",
+    "copy": "Danke Romain, dass du mir beim ganzen Bau mit Rat & Tat zur Seite gestanden bist!",
     "image": "../images/hobbit/solaranlage-romain.jpeg"
   },
   {
-    "title": "",
-    "copy": "",
+    "title": "Hobbit, bei Wintervollmond",
+    "copy": "Möge er vielen ein gemütliches Zuhause bieten",
     "image": "../images/hobbit/vollmond-licht.jpeg"
   }
   ],
