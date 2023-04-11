@@ -18,7 +18,7 @@ Deployed on: [vercel.com](https://vercel.com)
 - [X] 🗺 Sitemap support
 - [X] 📱 Generated media queries for easy use
 - [X] 😎 [Prettier](https://prettier.io/) for code style
-- [X] 👷‍♂️ [CircleCI](https://circleci.com/) support
+- [X] ✨ [Mend Renovate configuration](https://github.com/marketplace/renovate)
 - [X] 🐙 Schema JSONLD
 - [X] 🔎 [`size-plugin`](https://github.com/GoogleChromeLabs/size-plugin) to keep an eye on your bundle sizes
 - [X] 👨‍🏫 ESLint (based on [`eslint-plugin-react`](./.eslintrc))
