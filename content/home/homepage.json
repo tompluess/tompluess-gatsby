@@ -21,16 +21,16 @@
   "titleSecond": "Weitere Tätigkeitsgebiete",
   "gallerySecond": [
     {
+      "title": "PVcontracting",
+      "copy": "Solarstrom vom eigenen Dach – Ohne Investitionskosten",
+      "image": "../images/gallery/pvcontracting.jpeg",
+      "href": "https://pvcontracting.ch"
+    },
+    {
       "title": "Simplificator",
       "copy": "Berater, Projektleiter, Software Engineer",
       "image": "../images/gallery/simplificator-buttons.jpeg",
       "href": "https://simplificator.com/team/tom"
-    },
-    {
-      "title": "Nomadenkreis",
-      "copy": "Leiter",
-      "image": "../images/gallery/feuer-3toepfe-abend.jpeg",
-      "href": "https://www.nomadenkreis.ch"
     },
     {
       "title": "Zirkswagen Hobbit",
