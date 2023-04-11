@@ -1,38 +1,42 @@
 {
   "title": "Berater, Coach, Software Engineer",
   "content": "intro.md",
-  "gallery": [{
-    "title": "Reduzieren",
-    "copy": "Ablenkung eliminieren",
-    "image": "../images/gallery/tom-kocht.jpeg"
-  },
-  {
-    "title": "Klarheit gewinnen",
-    "copy": "Perspektive wechseln",
-    "image": "../images/gallery/wegweiser.jpeg"
-  },
-  {
-    "title": "Durchstarten",
-    "copy": "Und das Richtige tun",
-    "image": "../images/gallery/morgenrot.jpeg"
-  }],
+  "gallery": [
+    {
+      "title": "Reduzieren",
+      "copy": "Ablenkung eliminieren",
+      "image": "../images/gallery/tom-kocht.jpeg"
+    },
+    {
+      "title": "Klarheit gewinnen",
+      "copy": "Perspektive wechseln",
+      "image": "../images/gallery/wegweiser.jpeg"
+    },
+    {
+      "title": "Durchstarten",
+      "copy": "Und das Richtige tun",
+      "image": "../images/gallery/morgenrot.jpeg"
+    }
+  ],
   "titleSecond": "Weitere Tätigkeitsgebiete",
-  "gallerySecond": [{
-    "title": "Simplificator",
-    "copy": "Berater, Software Engineer, Mitglied der Geschäftsleitung",
-    "image": "../images/gallery/simplificator-buttons.jpeg",
-    "href": "https://simplificator.com/team/tom"
-  },
-  {
-    "title": "Nomadenkreis",
-    "copy": "Leiter",
-    "image": "../images/gallery/feuer-3toepfe-abend.jpeg",
-    "href": "https://www.nomadenkreis.ch"
-  },
-  {
-    "title": "Zirkswagen Hobbit",
-    "copy": "Mein Zirkuswagen kann für Ferien oder eine Auszeit gemietet werden",
-    "image": "../images/hobbit/Hobbit-verschneiter-Berggipfel.jpeg",
-    "href": "https://subscribepage.io/hobbit"
-  }]
+  "gallerySecond": [
+    {
+      "title": "PVcontracting",
+      "copy": "Solarstrom vom eigenen Dach – Ohne Investitionskosten",
+      "image": "../images/gallery/pvcontracting.jpeg",
+      "href": "https://pvcontracting.ch"
+    },
+    {
+      "title": "Simplificator",
+      "copy": "Berater, Projektleiter, Software Engineer",
+      "image": "../images/gallery/simplificator-buttons.jpeg",
+      "href": "https://simplificator.com/team/tom"
+    },
+    {
+      "title": "Zirkswagen Hobbit",
+      "copy": "Mein Zirkuswagen kann für Ferien oder eine Auszeit gemietet werden",
+      "image": "../images/hobbit/Hobbit-verschneiter-Berggipfel.jpeg",
+      "href": "https://subscribepage.io/hobbit"
+    }
+  ]
 }
