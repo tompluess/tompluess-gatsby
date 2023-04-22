@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from 'components/header';
 import "./layout.css";
+import { Analytics } from '@vercel/analytics/react';
 
 const Layout = ({ data, children }) => (
   <div class="flex justify-center">
@@ -10,6 +11,7 @@ const Layout = ({ data, children }) => (
     <div class="w-full max-w-screen-2xl px-2 sm:px-6 md:px-16 lg:px-32 pt-32">
       {children}
     </div>
+    <Analytics />
   </div>
 );
 
