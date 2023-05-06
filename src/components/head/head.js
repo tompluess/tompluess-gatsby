@@ -161,6 +161,14 @@ const Head = ({
           pageTitleFull,
         })
       )}
+
+      <script
+        defer
+        type="text/javascript"
+        src="https://api.pirsch.io/pirsch.js"
+        id="pirschjs"
+        data-code="MNhalEMnHFvgY0fvbMqsXhpaDzKOc7rn"
+      ></script>
     </script>
   </>
 );
@@ -179,7 +187,7 @@ Head.propTypes = {
   location: PropTypes.object.isRequired,
 };
 
-const HeadWithQuery = props => (
+const HeadWithQuery = (props) => (
   <StaticQuery
     query={graphql`
       query {
@@ -198,7 +206,7 @@ const HeadWithQuery = props => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Location>
         {({ location }) => (
           <Head {...data.site.siteMetadata} {...props} location={location} />
@@ -207,6 +215,5 @@ const HeadWithQuery = props => (
     )}
   />
 );
-
 
 export default HeadWithQuery;
