@@ -9,7 +9,7 @@ Dazu habe ich folgende Angebote:
 Mit meinem beruflichen Hintergrund als Software Engineer, kann ich in diesem Bereich aus einem grossen Erfahrungsschatz schöpfen.
 
 Oft kommen Menschen zu mir, welche in digitalen Bereichen ihres Lebens Rat suchen.
-Sei es zum Konzipieren oder Erstellen einer Webseite, Evaluieren von Cloud-Lösungen für ihr Unternehmen bis hin zur Unterstützung bei der Digitalisierung von Prozessen.
+Sei es zum Konzipieren oder Erstellen einer [Webseite](/wordpress), Evaluieren von Cloud-Lösungen für ihr Unternehmen bis hin zur Unterstützung bei der Digitalisierung von Prozessen.
 
 ## Einzelcoaching
 
