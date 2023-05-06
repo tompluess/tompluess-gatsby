@@ -164,10 +164,8 @@ const Head = ({
 
       <script
         defer
-        type="text/javascript"
-        src="https://api.pirsch.io/pirsch.js"
-        id="pirschjs"
-        data-code="MNhalEMnHFvgY0fvbMqsXhpaDzKOc7rn"
+        data-domain="tompluess.ch"
+        src="https://plausible.io/js/script.js"
       ></script>
     </script>
   </>
