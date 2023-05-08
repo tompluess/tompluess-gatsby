@@ -2,6 +2,10 @@
 
 Wenn ich Webseiten-Projekte unterstütze, haben sich bei mir die folgenden Ansätze bewährt.
 
+## Image optimization
+
+Um Bilder in einer angepassten Grösse und in modernen Webformaten bereitzustellen, benutze ich den [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/). Bisher bin ich mit der Gratisversion gut durchgekommen, und konnte massive Verschnellerungen der Seite erzielen (gemessen mit Ligthouse, [Lighthouse Metrics](https://lighthouse-metrics.com/app/tompluess/measure) oder [Google PageSpeed Insights](https://pagespeed.web.dev/?hl=de)).
+
 ## Analytics
 
 Für Webseiten-Statistiken verwende ich [Plausible.io](https://plausible.io/docs/wordpress-integration), das Wordpress Plugin dazu ist [Plausible Analytics](https://wordpress.org/plugins/plausible-analytics/).
