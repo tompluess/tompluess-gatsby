@@ -12,7 +12,7 @@ Für Webseiten-Statistiken verwende ich [Plausible.io](https://plausible.io/docs
 
 Die Statistiken können im Wordpress-Admin-Bereich eingebunden werden und sind so direkt für alle Wordpress Authoren sichtbar.
 
-# SEO
+## SEO
 
 [Math Rank](https://rankmath.com) bietet folgende Features:
 
