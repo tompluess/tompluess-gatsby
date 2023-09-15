@@ -1,10 +1,11 @@
-# Projektleitung, Beratung und Coaching
-
 **_Egal wie weit der Weg ist, man muss den ersten Schritt tun._**
 
 _- Mao Tse-tung_
 
+# Projektleitung, Beratung und Coaching
+
 Meine Leidenschaft ist es, Projekte und Menschen auf ihrem Weg zu begleiten.
+
 Dazu habe ich folgende Angebote:
 
 ## Moderation und Begleitung von Gruppen
