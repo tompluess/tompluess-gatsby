@@ -43,7 +43,7 @@
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.7",
     "react-pose": "^4.0.10",
-    "styled-components": "^5.3.11"
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@babel/core": "^7.22.19",
